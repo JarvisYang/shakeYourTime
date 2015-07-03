@@ -1,27 +1,26 @@
 {
-  "name": "shakeyourtime",
-  "description": "Full-Stack JavaScript with MongoDB, Express and Node.js",
-  "version": "0.0.1",
-  "author": "Jarvis Yang",
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.4.x"
-  },
+  "name": "shakeYourTime",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "nodemon --harmony --harmony_arrays --harmony_computed_property_names server.js"
+    "start": "nodemon --harmony --harmony_arrays --harmony_computed_property_names --harmony_templates ./bin/www"
   },
   "dependencies": {
-    "express": "~4.10.1",
+    "express": "~4.12.4",
     "express-session": "~1.9.1",
-    "body-parser": "~1.9.0",
-    "cookie-parser": "~1.3.2",
+    "body-parser": "~1.12.4",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "jade": "~1.9.2",
+    "morgan": "~1.5.3",
+    "serve-favicon": "~2.2.1",
     "mongoose": "~3.8.8",
     "bower": "~1.3.8",
-    "grunt-cli": "~0.1.13",
     "async": "~0.9.0"
   },
   "devDependencies": {
     "ejs": "^2.3.1",
+    "fs": "0.0.2",
     "jsdom": "^5.4.3",
     "mongodb": "^2.0.35",
     "phantom": "^0.7.2"
