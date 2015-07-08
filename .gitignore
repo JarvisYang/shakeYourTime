@@ -3,6 +3,5 @@
 .DS_Store
 /build
 .idea/
-config.js
 node_modules/
 npm-debug.log
