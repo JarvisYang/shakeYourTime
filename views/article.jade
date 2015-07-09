@@ -1,0 +1,19 @@
+//
+   Created by jarvis on 7/9/15.
+doctype html
+html
+   head
+      title= title
+      link(rel='stylesheet', href='/stylesheets/article.css')
+      meta( name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
+   body
+      div#questionBox
+         p#questionTitle #{questionTitle}
+         p#questionDesc !{questionDesc}
+      div#authorBox
+         div.left
+            img#authorImg(src=authorImg)
+         div.right
+            p#authorName #{authorName}
+            p#authorDetail #{authorDetail}
+      div#content !{content}
